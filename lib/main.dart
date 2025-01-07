@@ -1,7 +1,10 @@
 import 'package:biiz/view/auth/login_view.dart';
 import 'package:biiz/view/auth/password_reset_view.dart';
 import 'package:biiz/view/auth/register_view.dart';
+import 'package:biiz/view/instructor/instructor_course_view.dart';
 import 'package:biiz/view/instructor/instructor_home_view.dart';
+import 'package:biiz/view/instructor/instructor_profil_view.dart';
+import 'package:biiz/view/instructor/instructor_view.dart';
 import 'package:biiz/view/onboarding_view.dart';
 import 'package:biiz/view/student/student_home_view.dart';
 import 'package:biiz/viewmodels/auth/login_view_model.dart';
@@ -37,11 +40,14 @@ class MyApp extends StatelessWidget {
           "/registerPage": (context) => RegisterView(),
           "/onBoardingPage": (context) => OnBoardingPage(),
           "/studentPage": (context) => StudentHomeView(),
-          "/instructorPage": (context) => InstructorHomeView(),
+          "/instructorPage": (context) => InstructorView(),
           "/passwordResetPage": (context) =>PasswordResetView(),
+          "/instructorHomePage": (context) =>InstructorHomeView(),
+          "/instructorProfilPage": (context) =>InstructorProfilView(),
+          "/instructorCoursePage": (context) =>InstructorCourseView(),
         },
         theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+          scaffoldBackgroundColor: Colors.white,
           useMaterial3: true,
         ),
         home: const OnBoardingPage(),

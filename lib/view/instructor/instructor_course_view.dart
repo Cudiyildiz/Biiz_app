@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class InstructorHomeView extends StatelessWidget {
-  const InstructorHomeView({super.key});
+class InstructorCourseView extends StatelessWidget {
+  const InstructorCourseView({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -10,7 +10,7 @@ class InstructorHomeView extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("Ana Sayfa",style: TextStyle(fontSize: 25),),
+            Text("Kurslar",style: TextStyle(fontSize: 25),),
           ],
         ),
       ),

@@ -3,7 +3,7 @@ import '../../data/models/user/user.dart';
 import '../../data/services/auth_service.dart';
 
 class RegisterViewModel extends ChangeNotifier {
-  final AuthService _authService = AuthService();
+  final AuthService  _authService = AuthService();
 
   // Text Controllers
   TextEditingController textIsim = TextEditingController();
