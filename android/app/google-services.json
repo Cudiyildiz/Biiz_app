@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "161267781075",
+    "project_id": "biiz-299a7",
+    "storage_bucket": "biiz-299a7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161267781075:android:1c39d93e333044bed27326",
+        "android_client_info": {
+          "package_name": "com.cudiyildiz.biiz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAeGZEJ10nq8lmdzrGkLheIJVPwHX0RKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
