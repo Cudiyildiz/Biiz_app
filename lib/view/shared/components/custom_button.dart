@@ -8,6 +8,7 @@ class CustomButton extends StatelessWidget {
   final Color? sideColor;
   final Color? textColor;
   final bool isLoading; // isLoading'i opsiyonel olmaktan çıkardık
+  final double borderRadius;
 
   const CustomButton({
     Key? key,
@@ -17,6 +18,7 @@ class CustomButton extends StatelessWidget {
     this.fontSize,
     this.sideColor,
     this.textColor,
+    this.borderRadius = 20,
     this.isLoading = false, // Varsayılan değer false
   }) : super(key: key);
 
@@ -31,7 +33,7 @@ class CustomButton extends StatelessWidget {
             .primaryColor,
         padding: const EdgeInsets.symmetric(horizontal: 65, vertical: 12),
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(20),
+          borderRadius: BorderRadius.circular(borderRadius),
           side: BorderSide(
             color: sideColor ?? Theme
                 .of(context)
