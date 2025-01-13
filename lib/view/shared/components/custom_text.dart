@@ -6,12 +6,14 @@ class CustomText extends StatelessWidget {
   final Color color;
   final double fontSize;
   final FontWeight fontWeight;
+  final String fontFamily;
   const CustomText({
     Key? key,
     required this.icerik,
     this.color = siyah,
     this.fontSize = 14,
     this.fontWeight = FontWeight.w500,
+    this.fontFamily = "popi",
 
 }): super(key: key);
 
@@ -20,7 +22,7 @@ class CustomText extends StatelessWidget {
     return Text(icerik!,style: TextStyle(
       color: color,
       fontSize: fontSize,
-      fontFamily: "popi",
+      fontFamily: fontFamily,
       fontWeight: fontWeight,
 
     ),);

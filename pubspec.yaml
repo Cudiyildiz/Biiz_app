@@ -46,6 +46,9 @@ flutter:
     - family: popi
       fonts:
         - asset: font/Poppins-Regular.ttf
+    - family: rust
+      fonts:
+        - asset: font/IntroRust-Base.otf
 
   # To add assets to your application, add an assets section, like this:
   # assets:

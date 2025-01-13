@@ -7,6 +7,7 @@ import 'package:biiz/view/instructor/instructor_profil_view.dart';
 import 'package:biiz/view/instructor/instructor_view.dart';
 import 'package:biiz/view/onboarding_view.dart';
 import 'package:biiz/view/student/student_home_view.dart';
+import 'package:biiz/view/student/student_view.dart';
 import 'package:biiz/viewmodels/auth/login_view_model.dart';
 import 'package:biiz/viewmodels/auth/password_reset_view_model.dart';
 import 'package:biiz/viewmodels/auth/register_view_model.dart';
@@ -40,6 +41,7 @@ class MyApp extends StatelessWidget {
           "/registerPage": (context) => RegisterView(),
           "/onBoardingPage": (context) => OnBoardingPage(),
           "/studentPage": (context) => StudentHomeView(),
+          "/studentView": (context) => StudentViews(),
           "/instructorPage": (context) => InstructorView(),
           "/passwordResetPage": (context) =>PasswordResetView(),
           "/instructorHomePage": (context) =>InstructorHomeView(),

@@ -49,7 +49,7 @@ class LoginViewModel extends ChangeNotifier {
 
         // Navigate based on role
         if (role == 'student') {
-          Navigator.pushReplacementNamed(context, '/studentPage');
+          Navigator.pushReplacementNamed(context, '/studentView');
         } else if (role == 'instructor') {
           Navigator.pushReplacementNamed(context, '/instructorPage');
         }
